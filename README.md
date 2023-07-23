@@ -51,8 +51,7 @@ The frontend of Task Hero is developed by
 
 
 ## System Architecture
-
-![](.\public\Architecture.png)
+<img alt="image" src="public/Architecture.png">
 
 ## File Structure
 
