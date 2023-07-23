@@ -5,7 +5,7 @@ Task Hero is a team management tool designed to streamline resource allocation f
 
 ## Table of Contents
 
-- [Author](#contributors)
+- [Contributors](#contributors)
 - [Live Demo](#Live-Demo)
 - [Features](#features)
 - [Local Deployment](#local-deployment)
