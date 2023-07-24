@@ -2,7 +2,6 @@
 
 Task Hero is a team management tool designed to streamline resource allocation for projects within teams. This efficient solution empowers team managers to assign tasks to members, taking into account their individual workloads, while also enabling them to monitor the project's progress. Notably, Task Hero boasts a unique recommending feature, which suggests the best team member pairings for collaborative work, enhancing overall productivity and synergy among team members.
 
-
 ## Table of Contents
 
 - [Author](#contributors)
@@ -14,8 +13,6 @@ Task Hero is a team management tool designed to streamline resource allocation f
 - [File Structure](#file-structure)
 - [Technical Support or Questions](#technical-support-or-questions)
 
-
-
 ## Contributors
 
 The frontend of Task Hero is developed by
@@ -24,8 +21,6 @@ The frontend of Task Hero is developed by
 2. Yue Wu
 
 ## Live Demo
-
-
 
 ## Features
 
@@ -44,11 +39,7 @@ The frontend of Task Hero is developed by
 
 ## Local Deployment
 
-
-
 ## Backend
-
-
 
 ## System Architecture
 
@@ -62,83 +53,81 @@ The frontend of Task Hero is developed by
     ├── LICENSE.md
     ├── README.md
     ├── jsconfig.json
-    ├── node_modules
     ├── package.json
     ├── public
-    ├── src
-    │   ├── App.js
-    │   ├── api
-    │   ├── assets
-    │   ├── components
-    │   ├── context
-    │   ├── examples
-    │   ├── formikComponents
-    │   ├── index.js
-    │   ├── layouts
-    │   ├── pages
-    │   │   ├── advancedSearch
-    │   │   │   ├── data
-    │   │   │   │   ├── taskData.js
-    │   │   │   │   └── userData.js
-    │   │   │   └── index.js
-    │   │   ├── authentication
-    │   │   │   ├── components
-    │   │   │   │   ├── BasicLayout
-    │   │   │   │   │   └── index.js
-    │   │   │   │   ├── CoverLayout
-    │   │   │   │   │   └── index.js
-    │   │   │   │   └── Footer
-    │   │   │   │       └── index.js
-    │   │   │   ├── reset-password
-    │   │   │   │   └── cover
-    │   │   │   │       └── index.js
-    │   │   │   ├── sign-in
-    │   │   │   │   └── index.js
-    │   │   │   └── sign-up
-    │   │   │       └── index.js
-    │   │   ├── connections
-    │   │   │   ├── data
-    │   │   │   │   ├── connectedTableData.js
-    │   │   │   │   ├── requestTableData.js
-    │   │   │   │   └── sentTableData.js
-    │   │   │   └── index.js
-    │   │   ├── dashboard
-    │   │   │   ├── components
-    │   │   │   │   ├── CreateTasks
-    │   │   │   │   │   └── index.js
-    │   │   │   │   ├── EditTask
-    │   │   │   │   │   └── index.js
-    │   │   │   │   ├── Review
-    │   │   │   │   │   └── index.js
-    │   │   │   │   └── TaskDetails
-    │   │   │   │       └── index.js
-    │   │   │   ├── data
-    │   │   │   │   └── taskData.js
-    │   │   │   └── index.js
-    │   │   ├── editProfile
-    │   │   │   └── index.js
-    │   │   ├── landingPage
-    │   │   │   ├── index.js
-    │   │   │   └── sections
-    │   │   │       ├── Featuring.js
-    │   │   │       ├── Information.js
-    │   │   │       ├── NavbarList.js
-    │   │   │       └── Team.js
-    │   │   ├── profile
-    │   │   │   └── index.js
-    │   │   ├── recommendation
-    │   │   │   ├── data
-    │   │   │   │   └── userData.js
-    │   │   │   └── index.js
-    │   │   ├── search
-    │   │   │   ├── data
-    │   │   │   │   └── taskData.js
-    │   │   │   └── index.js
-    │   │   └── signout
-    │   │       └── index.js
-    │   ├── routes.js
-    │   └── utilities
-    └── yarn.lock
+    └── src
+        ├── App.js
+        ├── api
+        ├── assets
+        ├── components
+        ├── context
+        ├── examples
+        ├── formikComponents
+        ├── index.js
+        ├── layouts
+        ├── pages
+        │   ├── advancedSearch
+        │   │   ├── data
+        │   │   │   ├── taskData.js
+        │   │   │   └── userData.js
+        │   │   └── index.js
+        │   ├── authentication
+        │   │   ├── components
+        │   │   │   ├── BasicLayout
+        │   │   │   │   └── index.js
+        │   │   │   ├── CoverLayout
+        │   │   │   │   └── index.js
+        │   │   │   └── Footer
+        │   │   │       └── index.js
+        │   │   ├── reset-password
+        │   │   │   └── cover
+        │   │   │       └── index.js
+        │   │   ├── sign-in
+        │   │   │   └── index.js
+        │   │   └── sign-up
+        │   │       └── index.js
+        │   ├── connections
+        │   │   ├── data
+        │   │   │   ├── connectedTableData.js
+        │   │   │   ├── requestTableData.js
+        │   │   │   └── sentTableData.js
+        │   │   └── index.js
+        │   ├── dashboard
+        │   │   ├── components
+        │   │   │   ├── CreateTasks
+        │   │   │   │   └── index.js
+        │   │   │   ├── EditTask
+        │   │   │   │   └── index.js
+        │   │   │   ├── Review
+        │   │   │   │   └── index.js
+        │   │   │   └── TaskDetails
+        │   │   │       └── index.js
+        │   │   ├── data
+        │   │   │   └── taskData.js
+        │   │   └── index.js
+        │   ├── editProfile
+        │   │   └── index.js
+        │   ├── landingPage
+        │   │   ├── index.js
+        │   │   └── sections
+        │   │       ├── Featuring.js
+        │   │       ├── Information.js
+        │   │       ├── NavbarList.js
+        │   │       └── Team.js
+        │   ├── profile
+        │   │   └── index.js
+        │   ├── recommendation
+        │   │   ├── data
+        │   │   │   └── userData.js
+        │   │   └── index.js
+        │   ├── search
+        │   │   ├── data
+        │   │   │   └── taskData.js
+        │   │   └── index.js
+        │   └── signout
+        │       └── index.js
+        ├── routes.js
+        └── utilities
 ```
 
 ## References
