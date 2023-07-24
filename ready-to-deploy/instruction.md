@@ -48,7 +48,7 @@ You can check that with following command:
   1.22.x
   ```
 
-If the output doesn't match with the possible output above (e.g.`command not found: yarn`, mismatching version number or error occurs), please follow [this instruction](#1install-yarn) to install `node` and `yarn`.
+If the output doesn't match with the possible output above (e.g.`command not found: yarn`, mismatching version number or error occurs), please follow [this instruction](#install-all) to install `node` and `yarn`.
 
 Otherwise, you can [serve the frontend in localhost](#serving).
 
