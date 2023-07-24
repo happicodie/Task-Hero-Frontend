@@ -38,7 +38,7 @@ The frontend of Task Hero is developed by
 12. Over time, the system can continuously recommend potential cooperative partners for users to work with, based on the tasks they have taken to complete in the past.
 
 ## Local Deployment
-
+[Please view this local deployment instruction.](ready-to-deploy/instruction.md)
 ## Backend
 
 ## System Architecture
