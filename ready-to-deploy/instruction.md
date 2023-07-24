@@ -132,7 +132,7 @@ yarn add serve
 
 The frontend is served with `serve`.
 
-#### 3.1 <a name='extract'>Extract the `.tar.gz` file</a>
+#### <a name='extract'>3.1 Extract the `.tar.gz` file</a>
 
 In the folder `ready-to-deploy` where `task_hero.tar.gz` is located (which is the current folder), execute:
 
