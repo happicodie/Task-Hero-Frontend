@@ -40,7 +40,7 @@ The frontend of Task Hero is developed by
 ## Local Deployment
 [Please view this local deployment instruction.](ready-to-deploy/instruction.md)
 ## Backend
-
+Click to view [the repo of the backend](https://github.com/happicodie/Task-Hero-Backend)
 ## System Architecture
 <img alt="image" src="public/Architecture.png">
 
