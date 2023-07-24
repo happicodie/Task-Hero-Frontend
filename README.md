@@ -4,7 +4,7 @@ Task Hero is a team management tool designed to streamline resource allocation f
 
 ## Table of Contents
 
-- [Author](#contributors)
+- [Contributors](#contributors)
 - [Live Demo](#Live-Demo)
 - [Features](#features)
 - [Local Deployment](#local-deployment)
@@ -42,8 +42,7 @@ The frontend of Task Hero is developed by
 ## Backend
 
 ## System Architecture
-
-![](.\public\Architecture.png)
+<img alt="image" src="public/Architecture.png">
 
 ## File Structure
 
