@@ -171,4 +171,4 @@ The app has been successfully started if you see something like:
 
 Then you can go to http://localhost:3000 to view the application
 
-Enjoy Ability Plus!
+Enjoy Task Hero!
